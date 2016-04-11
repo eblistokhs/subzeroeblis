@@ -219,7 +219,7 @@ function load_gbans( )
   -- If gbans.lua doesn't exist
   if not f then
     print ("Created new gbans file: data/gbans.lua")
-    create_gbans()i
+    create_gbans()
   else
     f:close()
   end
