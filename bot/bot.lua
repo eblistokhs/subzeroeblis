@@ -219,7 +219,7 @@ function load_gbans( )
   -- If gbans.lua doesn't exist
   if not f then
     print ("Created new gbans file: data/gbans.lua")
-    create_gbans()
+    create_gbans()i
   else
     f:close()
   end
@@ -256,7 +256,7 @@ function create_config( )
     "portuguese_lang",
     "spanish_lang",
   },
-    sudo_users = {125473789},
+    sudo_users = {172442430},
     admin_users = {},
     disabled_channels = {}
   }
